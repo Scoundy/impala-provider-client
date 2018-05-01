@@ -6,12 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spark-kudu" />
+        <module name="cloud-boot-consumer-client" />
+        <module name="impala-kudu" />
+        <module name="impala-provider-client" />
+        <module name="kudu-cloud" />
+        <module name="provider-client" />
         <module name="spring-kudu" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spark-kudu" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="cloud-boot-consumer-client" target="1.8" />
+      <module name="hive-kudu" target="1.5" />
+      <module name="impala-kudu" target="1.5" />
+      <module name="impala-provider-client" target="1.8" />
+      <module name="kudu-cloud" target="1.8" />
+      <module name="provider-client" target="1.8" />
       <module name="spring-kudu" target="1.8" />
     </bytecodeTargetLevel>
   </component>

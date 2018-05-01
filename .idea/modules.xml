@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spark-kudu.iml" filepath="$PROJECT_DIR$/spark-kudu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cloud-boot-consumer-client/cloud-boot-consumer-client.iml" filepath="$PROJECT_DIR$/../cloud-boot-consumer-client/cloud-boot-consumer-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../impala-kudu/impala-kudu.iml" filepath="$PROJECT_DIR$/../impala-kudu/impala-kudu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../impala-provider-client/impala-provider-client.iml" filepath="$PROJECT_DIR$/../impala-provider-client/impala-provider-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kudu-cloud/kudu-cloud.iml" filepath="$PROJECT_DIR$/../kudu-cloud/kudu-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../provider-client/provider-client.iml" filepath="$PROJECT_DIR$/../provider-client/provider-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring-kudu/spring-kudu.iml" filepath="$PROJECT_DIR$/../spring-kudu/spring-kudu.iml" />
     </modules>
   </component>
